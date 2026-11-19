@@ -32,3 +32,8 @@ if __name__ == "__main__":  #name is main if i start the program myself
         main() #But if the function is imported like it is in my pytest
         #script, then the interactive main code doesnt run. but the
         #functions still work.
+def CircleArea(r):
+        if  r >= 0:
+                return 3.14 * r * r
+        else:
+                return "NaN"
