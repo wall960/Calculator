@@ -28,5 +28,7 @@ def main():
         else:
             print ("Unknown operator:", op)
             
-if __name__ == "__main__":
-    main()
+if __name__ == "__main__":  #name is main if i start the program myself
+        main() #But if the function is imported like it is in my pytest
+        #script, then the interactive main code doesnt run. but the
+        #functions still work.
