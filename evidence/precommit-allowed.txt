@@ -1,0 +1,40 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.15.2, pytest-9.2.0, pluggy-1.7.0 -- /Library/Frameworks/Python.framework/Versions/3.15/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/danielwebb/Documents/devops/calculator
+collecting ... collected 28 items
+
+test_batch_calculator.py::test_batch_addition PASSED                     [  3%]
+test_batch_calculator.py::test_batch_subtraction PASSED                  [  7%]
+test_batch_calculator.py::test_batch_multiplication PASSED               [ 10%]
+test_batch_calculator.py::test_batch_division PASSED                     [ 14%]
+test_batch_calculator.py::test_batch_negative_addition PASSED            [ 17%]
+test_batch_calculator.py::test_batch_negative_multiplication PASSED      [ 21%]
+test_batch_calculator.py::test_batch_decimal_addition PASSED             [ 25%]
+test_batch_calculator.py::test_batch_whitespace PASSED                   [ 28%]
+test_batch_calculator.py::test_batch_empty_first_operand PASSED          [ 32%]
+test_batch_calculator.py::test_batch_empty_second_operand PASSED         [ 35%]
+test_batch_calculator.py::test_batch_invalid_first_operand PASSED        [ 39%]
+test_batch_calculator.py::test_batch_invalid_second_operand PASSED       [ 42%]
+test_batch_calculator.py::test_batch_upper_boundary PASSED               [ 46%]
+test_batch_calculator.py::test_batch_lower_boundary PASSED               [ 50%]
+test_batch_calculator.py::test_batch_above_range PASSED                  [ 53%]
+test_batch_calculator.py::test_batch_below_range PASSED                  [ 57%]
+test_batch_calculator.py::test_batch_valid_decimal_precision PASSED      [ 60%]
+test_batch_calculator.py::test_batch_excessive_decimal_precision PASSED  [ 64%]
+test_batch_calculator.py::test_batch_unknown_operation PASSED            [ 67%]
+test_batch_calculator.py::test_batch_division_by_zero PASSED             [ 71%]
+test_batch_calculator.py::test_batch_unknown_operation_takes_priority PASSED [ 75%]
+test_batch_calculator.py::test_batch_invalid_number_takes_priority PASSED [ 78%]
+test_calculator.py::test_add PASSED                                      [ 82%]
+test_calculator.py::test_divide PASSED                                   [ 85%]
+test_calculator.py::test_multiply PASSED                                 [ 89%]
+test_calculator.py::test_subtract PASSED                                 [ 92%]
+test_calculator.py::test_divide_uneven PASSED                            [ 96%]
+test_calculator.py::test_circleArea PASSED                               [100%]
+
+============================== 28 passed in 0.02s ==============================
+[calculator-extension 6b933bf] Add version-controlled pre-commit hook
+ 2 files changed, 49 insertions(+)
+ create mode 100755 .githooks/pre-commit
+ create mode 100644 evidence/precommit-blocked.txt
